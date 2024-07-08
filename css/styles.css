@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif; /* Použití fontu Inter */
+    background: linear-gradient(to right, orange, red);
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center; /* Zarovnání do středu */
+    padding: 20px;
+}
+.segment {
+    width: 40%; /* Přibližně 40% šířky containeru */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: inline-block; /* Aby se segmenty zarovnaly do řádku */
+    vertical-align: top; /* Zarovnání na vrch stránky */
+}
+
+.segment:first-child {
+    margin-right: 20px;
+}
+.oznameni {
+    background-color: #f0f8ff;
+    border: 5px solid #4682b4;
+    border-radius: 10px;
+    padding: 10px;
+}
+.varovani {
+    background-color: #fbff00;
+    border: 5px dashed #e38a17;
+    border-radius: 10px;
+    padding: 10px;
+}
+.links {
+    width: 100%; /* 100% šířky containeru */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center; /* Zarovnání do středu */
+}
+.link-group {
+    margin-bottom: 20px;
+}
+.link-group a {
+    display: inline-block;
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+.link-group a:nth-child(1) { background-color: #FF5733; } /* Oranžová */
+.link-group a:nth-child(2) { background-color: #C70039; } /* Červená */
+.link-group a:nth-child(3) { background-color: #900C3F; } /* Vínová */
+.link-group a:nth-child(4) { background-color: #581845; } /* Tmavě vínová */
+.link-group a:nth-child(5) { background-color: #8E44AD; } /* Fialová */
+.link-group a:nth-child(6) { background-color: #2980B9; } /* Modrá */
+.link-group a:nth-child(7) { background-color: #1ABC9C; } /* Tyrkysová */
+.link-group a:nth-child(8) { background-color: #27AE60; } /* Zelená */
+.link-group a:nth-child(9) { background-color: #F39C12; } /* Žlutá */
+.link-group a:nth-child(10) { background-color: #D35400; } /* Oranžová */
+.link-group a:nth-child(11) { background-color: #8E44AD; } /* Fialová */
+.link-group a:nth-child(12) { background-color: #2980B9; } /* Modrá */
+.link-group a:nth-child(13) { background-color: #1ABC9C; } /* Tyrkysová */
+.link-group a:nth-child(14) { background-color: #27AE60; } /* Zelená */
+.link-group a:nth-child(15) { background-color: #F39C12; } /* Žlutá */
+.link-group a:nth-child(16) { background-color: #D35400; } /* Oranžová */
+.link-group a:nth-child(17) { background-color: #900C3F; } /* Tmavě vínová */
+.link-group a:last-child {
+    margin-right: 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
